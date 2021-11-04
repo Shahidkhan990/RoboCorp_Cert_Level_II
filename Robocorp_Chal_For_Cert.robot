@@ -16,7 +16,9 @@ Library         RPA.Tables
 Library         RPA.PDF
 Library         RPA.Robocloud.Secrets
 Resource  Resources/Start_Robot_Work_From_Here.robot
+Resource  Resources/Credential_work.robot
 
 *** Test Cases ***
 ROBOCORP Certification Task
+    Get Credential From User
     Start Order Processing Work From Here
